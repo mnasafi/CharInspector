@@ -11,11 +11,17 @@ int main()
   //declare variables
   char letter;
   int AsciiValue;
+  int counter; // counter for how many times to loop
 
+  //prompt user how many times to loop
+  cout << "How many times do you want to loop this program?\n";
+  
+  //assign input value to counter
+  cin >> counter;  
 
   //for loop to keep repeating the program x times
 
-  for(int x = 0; x <= 5; x++)
+  for(int x = 1; x <= counter; x++)
   {
     
 
