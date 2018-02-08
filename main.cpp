@@ -38,7 +38,7 @@ int main()
   {
 
   //in all other cases...
-  cout << letter << "?! Pssh. What are you talking about?\n";
+  cout <<"You entered: " << letter << "  Pssh. What are you talking about?\n";
   
   }
     
